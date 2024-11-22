@@ -38,16 +38,13 @@ Extracts text from a valid Base64-encoded image.
     "text": "Extracted text from the image."
   }
 }
- **Docker Commands**
 
-**1. Build the Docker Image**
-Build a Docker image for the application from the provided `Dockerfile`.
-```bash
-docker build -t tesseract-ocr-api .
 
-**Git Commands**
-
-**1. Clone the Repository**
-Clone this repository to your local machine:
-```bash
+-**Clone the Repository:**
 git clone https://github.com/<your-username>/tesseract-ocr-api.git
+
+# Navigate to the project directory
+cd tesseract-ocr-api
+
+# Build the Docker Image
+docker build -t tesseract-ocr-api .
